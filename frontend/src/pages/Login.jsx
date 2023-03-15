@@ -31,7 +31,7 @@ function Login() {
     }
 
     dispatch(reset());
-  }, [dispatch, isError, isSuccess, navigate, dispatch, message, user]);
+  }, [dispatch, isError, isSuccess, navigate, message, user]);
 
   const onChange = (e) => {
     e.preventDefault();
